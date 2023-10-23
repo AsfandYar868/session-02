@@ -235,5 +235,63 @@
 
         /* About Sec End */
 
+        .all-brands{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            bottom: 140px;
+    
+        }
+    
+        .brands{
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            height: 14vh;
+            width: 14vh;
+            border-radius: 50%;
+            border: 1px solid #B64629;
+            transition: 0.5s
+        }
+    
+        .brand-img{
+            height: 11vh;
+            width: 11vh;
+            border-radius: 50%;
+            margin-top: 15px;
+          
+        }
+    
+        .imgs{
+            height: 11vh;
+            width: 11vh;
+            border-radius: 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: 0.5s
+        }
+    
+        .brands:hover{
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            border-color: rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .imgs:hover{
+            transform: scale(1.05);
+        }
+        .brand-name{
+            display: flex;
+            justify-content: center;
+            align-items: center !important;
+            margin-top: 30px;
+            font-size: 20px;
+            
+        }
+    
+        /* Brands images-name sec end */
+
 
 
